@@ -1,3 +1,3 @@
 FROM nginx:alpine-slim
-COPY web /usr/share/nginx/html
+ADD web /usr/share/nginx/html
 EXPOSE 80
